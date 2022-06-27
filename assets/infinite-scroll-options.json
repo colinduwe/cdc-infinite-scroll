@@ -1,0 +1,8 @@
+{
+	"path": ".wp-block-query-pagination-next",
+	"append": ".wp-block-post",
+	"history": false,
+	"outlayer": "msnry",
+	"scrollThreshold": 100,
+	"hideNav": ".wp-block-query-pagination"
+}

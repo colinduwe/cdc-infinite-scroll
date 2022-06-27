@@ -1,0 +1,39 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "cdc/infinite-scroll",
+	"version": "0.1.0",
+	"title": "CDC Infinite Scroll",
+	"category": "theme",
+	"description": "A substitute for the core/pagination block to support infinite scroll",
+	"textdomain": "cdc-infinite-scroll",
+	"attributes": {
+		"scrollType": {
+			"type": "string",
+			"default": "none"
+		}
+	},
+	"usesContext": ["queryId", "query" ],
+	"providesContext": {
+		"loadMoreButton": "loadMoreButton"
+	},
+	"supports": {
+		"align": true,
+		"reusable": false,
+		"html": false,
+		"color": {
+			"gradients": true,
+			"link": true
+		},
+		"__experimentalLayout": {
+			"allowSwitching": false,
+			"allowInheriting": false,
+			"default": {
+				"type": "flex"
+			}
+		}
+	},
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

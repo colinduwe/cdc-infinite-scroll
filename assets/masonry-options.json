@@ -1,0 +1,5 @@
+{
+	"itemSelector": ".wp-block-post",
+	"columnWidth": "posts[columnsEndOfRow]",
+	"gutter": "gutter"
+}

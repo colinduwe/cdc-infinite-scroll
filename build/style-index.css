@@ -1,0 +1,35 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+.wp-block-cdc-infinite-scroll > .wp-block-query-pagination-next,
+.wp-block-cdc-infinite-scroll > .wp-block-query-pagination-previous,
+.wp-block-cdc-infinite-scroll > .wp-block-query-pagination-numbers {
+  /*rtl:ignore*/
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+}
+.wp-block-cdc-infinite-scroll > .wp-block-query-pagination-next:last-child,
+.wp-block-cdc-infinite-scroll > .wp-block-query-pagination-previous:last-child,
+.wp-block-cdc-infinite-scroll > .wp-block-query-pagination-numbers:last-child {
+  /*rtl:ignore*/
+  margin-right: 0;
+}
+.wp-block-cdc-infinite-scroll .wp-block-query-pagination-previous-arrow {
+  margin-right: 1ch;
+  display: inline-block;
+}
+.wp-block-cdc-infinite-scroll .wp-block-query-pagination-previous-arrow:not(.is-arrow-chevron) {
+  transform: scaleX(1) /*rtl:scaleX(-1);*/;
+}
+.wp-block-cdc-infinite-scroll .wp-block-query-pagination-next-arrow {
+  margin-left: 1ch;
+  display: inline-block;
+}
+.wp-block-cdc-infinite-scroll .wp-block-query-pagination-next-arrow:not(.is-arrow-chevron) {
+  transform: scaleX(1) /*rtl:scaleX(-1);*/;
+}
+.wp-block-cdc-infinite-scroll.aligncenter {
+  justify-content: center;
+}
+
+/*# sourceMappingURL=style-index.css.map*/
